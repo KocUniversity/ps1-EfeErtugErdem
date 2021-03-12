@@ -15,7 +15,7 @@ minimum_value = 0
 maximum_value = 10000
 T = int((minimum_value + maximum_value)/2)
 left_side = summa*T
-while (left_side - B) >= summa or (left_side - B) <= 0:
+while (left_side - B) > summa or (left_side - B) <= 0:
   if left_side < B:
     minimum_value = T
   elif left_side > B: 
