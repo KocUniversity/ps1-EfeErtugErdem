@@ -25,5 +25,8 @@ while (left_side - B) > summa or (left_side - B) <= 0:
     break
   T = int((minimum_value + maximum_value)/2)
   left_side = summa*T
+  if T == 9999 and left_side < B:
+    T = -1
+    break
     
 print(T)
