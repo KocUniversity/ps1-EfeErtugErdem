@@ -15,9 +15,10 @@ left_side = summa*T
 while left_side <= B:
   T += 1
   left_side = summa*T
-
-if T > 10000:
-  T = -1  
+  if T > 10000:
+    T = -1
+    break 
+ 
 
 print(T) 
  
